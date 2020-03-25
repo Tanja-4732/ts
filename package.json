@@ -1,8 +1,8 @@
 {
-  "name": "example",
+  "name": "project_name",
   "version": "0.1.0",
   "description": "",
-  "main": "main.js",
+  "main": "dist/main.js",
   "scripts": {
     "watch": "nodemon -w src -x \"npm start\" -e ts",
     "start": "node -r source-map-support/register .",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Someone/example.git"
+    "url": "git+https://github.com/github_user/project_name.git"
   },
-  "author": "Someone <someone@example.com>",
+  "author": "github_user <git@domain.com>",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Someone/example/issues"
+    "url": "https://github.com/github_user/project_name/issues"
   },
-  "homepage": "https://github.com/Someone/example#readme",
+  "homepage": "https://github.com/github_user/project_name#readme",
   "dependencies": {
     "typescript": "^3.8.2",
     "source-map-support": "^0.5.16"
